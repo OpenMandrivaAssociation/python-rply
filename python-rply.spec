@@ -20,7 +20,6 @@ It is a more-or-less direct port of David Beazley's awesome PLY, with a new publ
 %prep
 %autosetup -n %{pypi_name}-%{version}
 rm -vrf *.egg-info
-sed -i -e 's/\r//' README.md
 
 %build
 %py_build
