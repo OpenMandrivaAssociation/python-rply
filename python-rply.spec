@@ -2,7 +2,7 @@
 
 Name:           python-%{pypi_name}
 Version:        0.7.8
-Release:        1
+Release:        2
 Summary:        An attempt to port David Beazley's PLY to RPython, and give it a cooler API.
 License:        BSD 3-Clause
 URL:            https://github.com/alex/rply
