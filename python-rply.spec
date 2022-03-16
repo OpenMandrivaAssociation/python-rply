@@ -6,7 +6,7 @@ Release:        1
 Summary:        An attempt to port David Beazley's PLY to RPython, and give it a cooler API.
 License:        BSD 3-Clause
 URL:            https://github.com/alex/rply
-Source:         https://files.pythonhosted.org/packages/29/44/96b3e8e6426b1f21f90d73cff83a6df94ef8a57ce8102db6c582d0cb3b2e/rply-%{version}.tar.gz
+Source0:        https://files.pythonhosted.org/packages/source/r/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python3dist(setuptools)
@@ -30,4 +30,3 @@ rm -vrf *.egg-info
 %files -n python-%{pypi_name}
 %{python_sitelib}/%{pypi_name}/
 %{python_sitelib}/%{pypi_name}-*.egg-info/
-#{python_sitelib}/__pycache__/*
